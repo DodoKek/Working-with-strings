@@ -1,0 +1,48 @@
+struct OptionDef
+{
+    const char* option_name;
+
+    void (*func)();
+};
+
+
+void  my_puts   (char str[]);
+
+char* my_strchr (char str[], char char_find);
+
+int   my_strlen (const char str[]);
+
+void  my_strcpy (char str_to[], const char str_from[]);
+
+void  my_strNcpy(char str_to[], const char str_from[], int copy_length);
+
+void  my_strCat (char str_first[], char str_last[]);
+
+int   my_strcmp (char str_first[], char str_second[]);
+
+char* my_fgets  (char *str, int num, FILE *file);
+
+void process_arguments(int                    argc,       const char* argv[],
+                       const struct OptionDef  Options[], int         options_range);
+                       
+void print_help();
+
+void start_unit_test();
+
+//--------Constants---------
+
+const bool Debug = true;
+
+const int  MAX_STR_SIZE = 1000;
+
+const OptionDef Options[] = {
+    {"--test", start_unit_test},
+    {"-t",     start_unit_test},
+    {"/t",     start_unit_test},
+
+    {"--help", print_help},
+    {"-h",     print_help},
+    {"/h",     print_help}
+};
+
+//--------Constants---------

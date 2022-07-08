@@ -1,0 +1,1914 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\Square_equasion\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524B332 в функции vswprintf(). Попытка прочесть данные по адресу 0x0000000F в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005052FC (32-bit), Flags: Cmdre0, Thread: 0x1EA4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524B332 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x75244BA1 in C:\WINDOWS\System32\msvcrt.dll: printf()
+
+# 2 0x0042C703 in C:\Users\User\Desktop\Lessons\Square_equasion\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/Square_equasion/working_with_str.cpp (79):
+
+     77:     if (Debug) printf("Starting str %s \n", test_string1);
+     78: 
+=>   79:     printf("Len - %s\n", my_strlen(test_string1));
+     80: 
+     81:     printf("Test, find char - %s\n", my_strchr(test_string1, 'b'));
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  6 2022 14:28:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 06 2022 14:29:01
+
+Run file:	C:\Users\User\Desktop\Lessons\Square_equasion\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\Square_equasion
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\Square_equasion\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524B332 в функции vswprintf(). Попытка прочесть данные по адресу 0x0000000F в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005052FC (32-bit), Flags: Cmdre0, Thread: 0x1EA4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524B332 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x75244BA1 in C:\WINDOWS\System32\msvcrt.dll: printf()
+
+# 2 0x0042C703 in C:\Users\User\Desktop\Lessons\Square_equasion\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/Square_equasion/working_with_str.cpp (79):
+
+     77:     if (Debug) printf("Starting str %s \n", test_string1);
+     78: 
+=>   79:     printf("Len - %s\n", my_strlen(test_string1));
+     80: 
+     81:     printf("Test, find char - %s\n", my_strchr(test_string1, 'b'));
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  6 2022 14:28:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 06 2022 14:29:01
+
+Run file:	C:\Users\User\Desktop\Lessons\Square_equasion\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\Square_equasion
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x64677364. Попытка прочесть данные по адресу 0x64677364. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xC90 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x7522CF15 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+# 3 0x7522CF34 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 11:43:06, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 07 2022 11:43:16
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x64677364. Попытка прочесть данные по адресу 0x64677364. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xC90 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x7522CF15 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+# 3 0x7522CF34 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 11:43:06, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 07 2022 11:43:16
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x64677364. Попытка прочесть данные по адресу 0x64677364. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1FC4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x7522CF15 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+# 3 0x7522CF34 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 11:46:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 07 2022 11:46:53
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x64677364. Попытка прочесть данные по адресу 0x64677364. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1FC4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x7522CF15 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+# 3 0x7522CF34 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 11:46:43, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 07 2022 11:46:53
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x64677364. Попытка прочесть данные по адресу 0x64677364. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xE3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x7522CF15 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+# 3 0x7522CF34 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 11:47:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 07 2022 11:47:42
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x64677364. Попытка прочесть данные по адресу 0x64677364. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0xE3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x7522CF15 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+# 3 0x7522CF34 in C:\WINDOWS\System32\msvcrt.dll: strerror_s()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 11:47:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 07 2022 11:47:42
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524B332 в функции vswprintf(). Попытка прочесть данные по адресу 0x6B6B656B в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x854 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524B332 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x75244BA1 in C:\WINDOWS\System32\msvcrt.dll: printf()
+
+# 2 0x0042877A in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (200):
+
+    198:         if (check_EOF == EOF) break;
+    199: 
+=>  200:         printf("%s %s \n", test_data[0], test_data[1]);
+    201: 
+    202:         assert(num_of_test > 0);
+
+# 3 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 4 0x0042884D in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (244):
+
+    242:     char str2[] = "abcde";
+    243: 
+=>  244:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    245: 
+    246:     FILE *file = fopen("testfile.txt", "r");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:10:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:11:07
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524B332 в функции vswprintf(). Попытка прочесть данные по адресу 0x6B6B656B в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x854 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524B332 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x75244BA1 in C:\WINDOWS\System32\msvcrt.dll: printf()
+
+# 2 0x0042877A in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (200):
+
+    198:         if (check_EOF == EOF) break;
+    199: 
+=>  200:         printf("%s %s \n", test_data[0], test_data[1]);
+    201: 
+    202:         assert(num_of_test > 0);
+
+# 3 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 4 0x0042884D in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (244):
+
+    242:     char str2[] = "abcde";
+    243: 
+=>  244:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    245: 
+    246:     FILE *file = fopen("testfile.txt", "r");
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:10:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:11:08
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524B332 в функции vswprintf(). Попытка прочесть данные по адресу 0x6B6B656B в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0xB40 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524B332 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x75244BA1 in C:\WINDOWS\System32\msvcrt.dll: printf()
+
+# 2 0x0042877A in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (200):
+
+    198:         if (check_EOF == EOF) break;
+    199: 
+=>  200:         printf("%s %s \n", test_data[0], test_data[1]);
+    201: 
+    202:         assert(num_of_test > 0);
+
+# 3 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 4 0x0042883C in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (244):
+
+    242:     char str2[] = "abcde";
+    243: 
+=>  244:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    245: 
+    246: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:12:09, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:12:30
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524B332 в функции vswprintf(). Попытка прочесть данные по адресу 0x6B6B656B в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0xB40 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524B332 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x75244BA1 in C:\WINDOWS\System32\msvcrt.dll: printf()
+
+# 2 0x0042877A in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (200):
+
+    198:         if (check_EOF == EOF) break;
+    199: 
+=>  200:         printf("%s %s \n", test_data[0], test_data[1]);
+    201: 
+    202:         assert(num_of_test > 0);
+
+# 3 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 4 0x0042883C in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (244):
+
+    242:     char str2[] = "abcde";
+    243: 
+=>  244:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    245: 
+    246: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:12:09, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:12:30
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524EEAB в функции vswprintf(). Попытка записать данные по адресу 0x007B0E44 в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1164 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524EEAB in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x7524FAB8 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 2 0x75243AC3 in C:\WINDOWS\System32\msvcrt.dll: fscanf_s()
+# 3 0x7524399B in C:\WINDOWS\System32\msvcrt.dll: fscanf()
+
+# 4 0x0042872B in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (196):
+
+    194: 
+    195:         check_EOF = fscanf(tests_file, "%s %s",
+=>  196:                            test_data,  test_data + 1);
+    197: 
+    198:         if (check_EOF == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x00428822 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (244):
+
+    242:     char str2[] = "abcde";
+    243: 
+=>  244:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    245: 
+    246: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:17:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:17:46
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7524EEAB в функции vswprintf(). Попытка записать данные по адресу 0x007B0E44 в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1164 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7524EEAB in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 1 0x7524FAB8 in C:\WINDOWS\System32\msvcrt.dll: vswprintf()
+# 2 0x75243AC3 in C:\WINDOWS\System32\msvcrt.dll: fscanf_s()
+# 3 0x7524399B in C:\WINDOWS\System32\msvcrt.dll: fscanf()
+
+# 4 0x0042872B in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (196):
+
+    194: 
+    195:         check_EOF = fscanf(tests_file, "%s %s",
+=>  196:                            test_data,  test_data + 1);
+    197: 
+    198:         if (check_EOF == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x00428822 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (244):
+
+    242:     char str2[] = "abcde";
+    243: 
+=>  244:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    245: 
+    246: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:17:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:17:46
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x6F6C6F90 в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x21A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75243A26 in C:\WINDOWS\System32\msvcrt.dll: fscanf_s()
+# 3 0x7524399B in C:\WINDOWS\System32\msvcrt.dll: fscanf()
+
+# 4 0x0042872E in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         check_EOF = fscanf(tests_file, "%s %s",
+=>  197:                            test_str_1, test_str_2);
+    198: 
+    199:         if (check_EOF == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x0042881C in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:21:16, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:21:33
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x6F6C6F90 в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x21A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75243A26 in C:\WINDOWS\System32\msvcrt.dll: fscanf_s()
+# 3 0x7524399B in C:\WINDOWS\System32\msvcrt.dll: fscanf()
+
+# 4 0x0042872E in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         check_EOF = fscanf(tests_file, "%s %s",
+=>  197:                            test_str_1, test_str_2);
+    198: 
+    199:         if (check_EOF == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x0042881C in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:21:16, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:21:33
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1A18 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75248575 in C:\WINDOWS\System32\msvcrt.dll: getc()
+
+# 3 0x00428531 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: my_fgets() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (119):
+
+    117:     for (int i = 0; i < num; i++)
+    118:     {
+=>  119:         sym_number = fgetc(file);
+    120:         char current_char = char(sym_number);
+    121: 
+
+# 4 0x00428741 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         my_fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         my_fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199:         if (check_EOF == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x0042882C in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (245):
+
+    243:     char str2[] = "abcde";
+    244: 
+=>  245:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    246: 
+    247: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:27:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:27:36
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1A18 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75248575 in C:\WINDOWS\System32\msvcrt.dll: getc()
+
+# 3 0x00428531 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: my_fgets() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (119):
+
+    117:     for (int i = 0; i < num; i++)
+    118:     {
+=>  119:         sym_number = fgetc(file);
+    120:         char current_char = char(sym_number);
+    121: 
+
+# 4 0x00428741 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         my_fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         my_fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199:         if (check_EOF == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x0042882C in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (245):
+
+    243:     char str2[] = "abcde";
+    244: 
+=>  245:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    246: 
+    247: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:27:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:27:35
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1038 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75248575 in C:\WINDOWS\System32\msvcrt.dll: getc()
+
+# 3 0x00428531 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: my_fgets() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (119):
+
+    117:     for (int i = 0; i < num; i++)
+    118:     {
+=>  119:         sym_number = fgetc(file);
+    120:         char current_char = char(sym_number);
+    121: 
+
+# 4 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         my_fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         my_fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199:         if (fgetc(tests_file) == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x00428841 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (245):
+
+    243:     char str2[] = "abcde";
+    244: 
+=>  245:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    246: 
+    247: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:34:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:35:14
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1038 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75248575 in C:\WINDOWS\System32\msvcrt.dll: getc()
+
+# 3 0x00428531 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: my_fgets() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (119):
+
+    117:     for (int i = 0; i < num; i++)
+    118:     {
+=>  119:         sym_number = fgetc(file);
+    120:         char current_char = char(sym_number);
+    121: 
+
+# 4 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         my_fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         my_fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199:         if (fgetc(tests_file) == EOF) break;
+
+# 5 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 6 0x00428841 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (245):
+
+    243:     char str2[] = "abcde";
+    244: 
+=>  245:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    246: 
+    247: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:34:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:35:13
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x18F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199:         if (fgetc(tests_file) == EOF) break;
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428841 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (245):
+
+    243:     char str2[] = "abcde";
+    244: 
+=>  245:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    246: 
+    247: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:35:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:36:07
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x18F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199:         if (fgetc(tests_file) == EOF) break;
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428841 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (245):
+
+    243:     char str2[] = "abcde";
+    244: 
+=>  245:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    246: 
+    247: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:35:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:36:07
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x2350 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75248575 in C:\WINDOWS\System32\msvcrt.dll: getc()
+
+# 3 0x00428732 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (200):
+
+    198: 
+    199: 
+=>  200:         if (fgetc(tests_file) == EOF) break;
+    201: 
+    202:         my_puts(test_str_1);
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428820 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (247):
+
+    245:     char str2[] = "abcde";
+    246: 
+=>  247:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    248: 
+    249: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:37:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:37:23
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x2350 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x75248575 in C:\WINDOWS\System32\msvcrt.dll: getc()
+
+# 3 0x00428732 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (200):
+
+    198: 
+    199: 
+=>  200:         if (fgetc(tests_file) == EOF) break;
+    201: 
+    202:         my_puts(test_str_1);
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428820 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (247):
+
+    245:     char str2[] = "abcde";
+    246: 
+=>  247:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    248: 
+    249: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:37:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:37:22
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x15B4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428727 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (196):
+
+    194:         char test_str_2[] = "";
+    195: 
+=>  196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+    197:         //fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x004287FF in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:40:29, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:40:41
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x15B4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428727 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (196):
+
+    194:         char test_str_2[] = "";
+    195: 
+=>  196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+    197:         //fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x004287FF in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:40:29, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:40:41
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1328 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199: 
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428850 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:45:08, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:45:21
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1328 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199: 
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428850 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:45:08, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:45:21
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1204 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199: 
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428850 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:45:08, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:45:58
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x779BFEF3 в функции RtlEnterCriticalSection(). Попытка записать данные по адресу 0x656B658F в модуле C:\WINDOWS\SYSTEM32\ntdll.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005012FC (32-bit), Flags: Cmdre0, Thread: 0x1204 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x779BFEF3 in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlEnterCriticalSection()
+# 1 0x75238EB3 in C:\WINDOWS\System32\msvcrt.dll: unlock()
+# 2 0x7524871A in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 3 0x00428744 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (197):
+
+    195: 
+    196:         fgets(test_str_1, MAX_STR_SIZE, tests_file);
+=>  197:         fgets(test_str_2, MAX_STR_SIZE, tests_file);
+    198: 
+    199: 
+
+# 4 0x00428601 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (153):
+
+    151:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    152:             {
+=>  153:                 Options[j].func();
+    154:                 count_processed_options++;
+    155:             }
+
+# 5 0x00428850 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (246):
+
+    244:     char str2[] = "abcde";
+    245: 
+=>  246:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    247: 
+    248: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  7 2022 15:45:08, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Release
+Started:	Jul 07 2022 15:45:58
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x752487DB в функции fgets(). Попытка записать данные по адресу 0x004C710E в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1CE4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x752487DB in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 1 0x0042CB47 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (222):
+
+    220: 
+    221:         num_of_test++;
+=>  222:         if (fgets("", MAX_STR_SIZE, tests_file) == NULL) break;
+    223:     }
+    224: 
+
+# 2 0x0042C986 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (164):
+
+    162:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    163:             {
+=>  164:                 Options[j].func();
+    165:                 count_processed_options++;
+    166:             }
+
+# 3 0x0042CC7E in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (262):
+
+    260:     char str2[] = "abcde";
+    261: 
+=>  262:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    263: 
+    264: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  8 2022 13:43:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 08 2022 13:44:54
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x752487DB в функции fgets(). Попытка записать данные по адресу 0x004C710E в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1CE4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x752487DB in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 1 0x0042CB47 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (222):
+
+    220: 
+    221:         num_of_test++;
+=>  222:         if (fgets("", MAX_STR_SIZE, tests_file) == NULL) break;
+    223:     }
+    224: 
+
+# 2 0x0042C986 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (164):
+
+    162:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    163:             {
+=>  164:                 Options[j].func();
+    165:                 count_processed_options++;
+    166:             }
+
+# 3 0x0042CC7E in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (262):
+
+    260:     char str2[] = "abcde";
+    261: 
+=>  262:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    263: 
+    264: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  8 2022 13:43:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 08 2022 13:44:55
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x752487DB в функции fgets(). Попытка записать данные по адресу 0x004C710E в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1F5C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x752487DB in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 1 0x0042CB47 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (222):
+
+    220: 
+    221:         num_of_test++;
+=>  222:         if (fgets("", MAX_STR_SIZE, tests_file) == NULL) break;
+    223:     }
+    224: 
+
+# 2 0x0042C986 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (164):
+
+    162:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    163:             {
+=>  164:                 Options[j].func();
+    165:                 count_processed_options++;
+    166:             }
+
+# 3 0x0042CC7E in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (262):
+
+    260:     char str2[] = "abcde";
+    261: 
+=>  262:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    263: 
+    264: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  8 2022 13:43:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 08 2022 13:47:32
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x752487DB в функции fgets(). Попытка записать данные по адресу 0x004C710E в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400], Instance: 0x005062FC (32-bit), Flags: Cmdre0, Thread: 0x1F5C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x752487DB in C:\WINDOWS\System32\msvcrt.dll: fgets()
+
+# 1 0x0042CB47 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: start_unit_test() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (222):
+
+    220: 
+    221:         num_of_test++;
+=>  222:         if (fgets("", MAX_STR_SIZE, tests_file) == NULL) break;
+    223:     }
+    224: 
+
+# 2 0x0042C986 in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: process_arguments() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (164):
+
+    162:             if (strcmp(argv[i], Options[j].option_name) == 0)
+    163:             {
+=>  164:                 Options[j].func();
+    165:                 count_processed_options++;
+    166:             }
+
+# 3 0x0042CC7E in C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe: main() at C:/Users/User/Desktop/Lessons/working_with_string/working_with_str.cpp (262):
+
+    260:     char str2[] = "abcde";
+    261: 
+=>  262:     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
+    263: 
+    264: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-05-15 04:30:40 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Jul  8 2022 13:43:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 08 2022 13:47:32
+
+Run file:	C:\Users\User\Desktop\Lessons\working_with_string\working_with_str.exe
+Directory:	C:\Users\User\Desktop\Lessons\working_with_string
+
+--------------------------------------------------
