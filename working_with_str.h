@@ -31,6 +31,8 @@ void start_unit_test();
 
 void print_error();
 
+void ASSERT(int error_id);
+
 FILE* get_tests_file();
 
 //--------Constants---------
@@ -54,3 +56,17 @@ const int  INF  = 100000000;
 
 int        Line = -1;
 //--------Constants---------
+
+
+enum ERROR_CODES
+{
+    NULL_ARRAY = 1,
+    TOO_BIG_NUMBER,
+    UNEXPECTED_EOF,
+    UNEXPECTED_ZERO,
+    CURSED_FILE
+};
+
+
+
+
