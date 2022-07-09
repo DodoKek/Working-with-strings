@@ -1,19 +1,63 @@
 //#define NDEBUG 1
 
-//#include <txlib.h>
+#include <txlib.h>
 #include <stdio.h>
 #include <assert.h>
 #include "working_with_str.h"
 
-#define LocSet Line_debug = __Line_debug__
+//Line_debug_tracking
 
-//Line_debugtracking
-#define start_unit_test()  LocSet, start_unit_test()
-//Line_debugtracking
+#define LocSet        Line = __LINE__
+
+#define de_my_strlen  LocSet; my_strlen
+#define de_my_strcpy  LocSet; my_strcpy
+#define de_my_puts    LocSet; my_puts
+#define de_my_fgets   LocSet; my_fgets
+
+//Line_debug_tracking
+
+
+int x = 1, 2, 3, 4, x, x+1, x-1, rand(), y, 0? 0? 0 : 1 : 0;
+
+
+int len = de_my_strlen ("abc");
+
+int len = LocSet, my_strlen ("abc");
+
+void ASSERT(int error_id)
+{
+    switch (error_id)
+    {
+        case NULL_ARRAY:
+            printf("Error while working with the array. \n");
+
+        case TOO_BIG_NUMBER:
+            printf("Pathetic attempt to work with digit, greater than allowed \n");
+
+        case UNEXPECTED_EOF:
+            printf("Pathetic attempt to call function with EOF while working with file. \n");
+
+        case CURSED_FILE:
+            printf("Error while reading the file." "\n");
+
+        case UNEXPECTED_ZERO:
+            printf("Function does not expect the number to be zero. \n");
+
+        default:
+            printf("Something scary happened, error_id = %d.\n", error_id);
+
+    }
+
+    printf("Was triggered by function call in line %d. \n", Line);
+}
 
 
 int my_strlen(const char str[])
 {
+    assert(str != NULL);
+
+    if (str == NULL) ASSERT(NULL_ARRAY);
+
     for (int i = 0; ; i++)
     {
         if (str[i] == '\0')
@@ -26,9 +70,12 @@ int my_strlen(const char str[])
 
 void my_strcpy(char str_to[], const char str_from[])
 {
+    if (!str_to)   ASSERT(NULL_ARRAY);
+    if (!str_from) ASSERT(NULL_ARRAY);
+
     int str_len = my_strlen(str_from);
 
-    for (int i = 0; i < str_len; i++)
+    for (int i = 0; str_from[i]; i++)
     {
         str_to[i] = str_from[i];
     }
@@ -180,14 +227,14 @@ void process_arguments(int                    argc,      const char* argv[],
 
     if (count_processed_options != argc - 1)
     {
-        printf("Некоторые аргументы введены некорректно.\n");
+        printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.\n");
     }
 }
 
 
 void print_help()
 {
-    printf("Возможно вам понадобилась поддержка... Мы в вас верим!\n");
+    printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ... пїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!\n");
 
     char help_src[] = "chrome C:\\Users\\User\\Desktop\\Lessons\\Square_equasion\\html\\index.html";
 
@@ -221,13 +268,6 @@ void start_unit_test()
         //my_puts(test_str_1); //Testing puts
         my_puts(test_str_1);
         my_puts(test_str_2);
-
-
-
-        //my_puts(my_strchr(test_str_1, 'e')); //Testing strchr
-
-        //my_strCat(test_str_1, test_str_2); //Testing strchr
-        //my_puts(test_str_1);
 
         num_of_test++;
         if (fgets("", MAX_STR_SIZE, tests_file) == NULL) break;
@@ -265,7 +305,7 @@ FILE* get_tests_file()
 
 void print_error()
 {
-    printf("Ошибка была вызвана при вызове функции в строке %d", Line_debug);
+//    printf("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ %d", Line_debug);
 }
 
 
@@ -278,5 +318,6 @@ int main(int argc, const char* argv[])
 
     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
 
-}
+    de_my_strlen(NULL);
 
+}
