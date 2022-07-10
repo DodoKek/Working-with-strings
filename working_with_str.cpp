@@ -4,44 +4,27 @@
 #include <stdio.h>
 #include <assert.h>
 #include "working_with_str.h"
-
-//Line_debug_tracking
-
-#define LocSet        Line = __LINE__
-
-#define de_my_strlen  LocSet; my_strlen
-#define de_my_strcpy  LocSet; my_strcpy
-#define de_my_puts    LocSet; my_puts
-#define de_my_fgets   LocSet; my_fgets
-
-//Line_debug_tracking
-
-
-int x = 1, 2, 3, 4, x, x+1, x-1, rand(), y, 0? 0? 0 : 1 : 0;
-
-
-int len = de_my_strlen ("abc");
-
-int len = LocSet, my_strlen ("abc");
+#include <algorithm>
+#include <string.h>
 
 void ASSERT(int error_id)
 {
     switch (error_id)
     {
         case NULL_ARRAY:
-            printf("Error while working with the array. \n");
+            printf("Error while working with the array, error_id = %d.\n", NULL_ARRAY);
 
         case TOO_BIG_NUMBER:
-            printf("Pathetic attempt to work with digit, greater than allowed \n");
+            printf("Pathetic attempt to work with digit, greater than allowed, error_id = %d.\n", TOO_BIG_NUMBER);
 
         case UNEXPECTED_EOF:
-            printf("Pathetic attempt to call function with EOF while working with file. \n");
+            printf("Pathetic attempt to call function with EOF while working with file, error_id = %d.\n", UNEXPECTED_EOF);
 
         case CURSED_FILE:
-            printf("Error while reading the file." "\n");
+            printf("Error while reading the file, error_id = %d.\n", CURSED_FILE);
 
         case UNEXPECTED_ZERO:
-            printf("Function does not expect the number to be zero. \n");
+            printf("Function does not expect the number to be zero.\n", UNEXPECTED_ZERO);
 
         default:
             printf("Something scary happened, error_id = %d.\n", error_id);
@@ -54,9 +37,7 @@ void ASSERT(int error_id)
 
 int my_strlen(const char str[])
 {
-    assert(str != NULL);
-
-    if (str == NULL) ASSERT(NULL_ARRAY);
+    if (!(str != NULL)) ASSERT(NULL_ARRAY);
 
     for (int i = 0; ; i++)
     {
@@ -73,22 +54,17 @@ void my_strcpy(char str_to[], const char str_from[])
     if (!str_to)   ASSERT(NULL_ARRAY);
     if (!str_from) ASSERT(NULL_ARRAY);
 
-    int str_len = my_strlen(str_from);
-
-    for (int i = 0; str_from[i]; i++)
+    for (int i = 0; str_from[i-1] != '\0'; i++)
     {
         str_to[i] = str_from[i];
     }
 
-    str_to[str_len] = '\0';
 }
 
 
 void  my_puts(char str[])
 {
-    int str_len = my_strlen(str);
-
-    for (int i = 0; i < str_len; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         putchar(str[i]);
     }
@@ -99,9 +75,7 @@ void  my_puts(char str[])
 
 char* my_strchr(char str[], char char_find)
 {
-    int str_len = my_strlen(str);
-
-    for (int i = 0; i < str_len; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         if (str[i] == char_find) return str + i;
     }
@@ -112,18 +86,14 @@ char* my_strchr(char str[], char char_find)
 
 void  my_strNcpy(char str_to[], const char str_from[], int copy_length)
 {
-    int str_from_len = my_strlen(str_from);
-
-    int final_indx = std::min(str_from_len, copy_length);
-
-    for (int i = 0; i < final_indx; i++)
+    for (int i = 0; i < copy_length || str_from[i-1] != '\0'; i++)
     {
-        str_to[i] = str_from[i];
+        str_to[i]   = str_from[i];
     }
 
-    for (int i = final_indx; i <= str_from_len; i++)
+    for (int i = copy_length; str_from[i-1] != '\0'; i++)
     {
-        str_to[i] = '\0';
+        str_to[i]   = '\0';
     }
 }
 
@@ -131,9 +101,8 @@ void  my_strNcpy(char str_to[], const char str_from[], int copy_length)
 void my_strCat (char str_first[], char str_last[])
 {
     int str_first_len = my_strlen(str_first);
-    int str_last_len  = my_strlen(str_last);
 
-    for (int i = str_first_len; i < str_first_len + str_last_len; i++)
+    for (int i = str_first_len; str_last[i-1] != '\0'; i++)
     {
         str_first[i] = str_last[i-str_first_len];
     }
@@ -162,11 +131,7 @@ int my_strcmp(char str_first[], char str_second[])
 
 char* my_fgets(char *str, int num, FILE *file)
 {
-    if(num > INF)
-    {
-        assert(num < INF);
-        print_error();
-    }
+    if(!(num < INF)) assert(num < INF);
 
     if (file == NULL) return nullptr;
 
@@ -303,10 +268,16 @@ FILE* get_tests_file()
 }
 
 
-void print_error()
-{
-//    printf("������ ���� ������� ��� ������ ������� � ������ %d", Line_debug);
-}
+//Line_debug_tracking
+
+#define LocSet        Line = __LINE__
+
+#define de_my_strlen  LocSet, my_strlen
+#define de_my_strcpy  LocSet, my_strcpy
+#define de_my_puts    LocSet, my_puts
+#define de_my_fgets   LocSet, my_fgets
+
+//Line_debug_tracking
 
 
 int main(int argc, const char* argv[])
@@ -318,6 +289,9 @@ int main(int argc, const char* argv[])
 
     process_arguments(argc, argv, Options, sizeof(Options) / sizeof(Options[0]));
 
+    //printf("%d\n", TOO_BIG_NUMBER);
+
     de_my_strlen(NULL);
+
 
 }
